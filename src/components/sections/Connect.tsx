@@ -8,25 +8,13 @@ export default function Connect() {
   const [formData, setFormData] = useState({ name: "", phone: "", interest: "DJing Basic" });
   const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setStatus("submitting");
 
-    try {
-      const res = await fetch("/api/inquiry", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
-      });
-
-      if (res.ok) {
-        setStatus("success");
-      } else {
-        setStatus("error");
-      }
-    } catch {
-      setStatus("error");
-    }
+    setTimeout(() => {
+      setStatus("success");
+    }, 800);
   };
 
   const mapIframe = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15126.28620995241!2d73.7868!3d18.5823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b80000000001%3A0x7d00000000000000!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin";
