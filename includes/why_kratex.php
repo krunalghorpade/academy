@@ -1,11 +1,10 @@
 <?php
 $points = [
-    "Industry-Driven Curriculum",
-    "Curated by Kratex<sup class=\"text-[0.55em]\">&trade;</sup>",
-    "Hands-on Studio Experience",
-    "Performance & Stage Training",
-    "Artist Branding & Marketing",
-    "Exclusive Workshops"
+    "Indian Number 1 House Music DJ",
+    "Maharashtra's Number One DJ Awardee",
+    "100M+ Streams overall with global hit 'Taambdi Chaamdi' on Spinnin' Records, world's biggest EDM label",
+    "Creator of the 'M-House' genre, single-handedly revolutionizing Marathi music in the clubbing space",
+    "Solo tours across USA, Australia, UK, UAE, and Canada based completely on his original music"
 ];
 ?>
 <section id="why-kratex" class="py-24 md:py-32 bg-[#050505] relative overflow-hidden">
@@ -32,14 +31,15 @@ $points = [
                     Why Kratex<sup class="text-[0.55em]">&trade;</sup> <br class="hidden md:block"/> Academy?
                 </h2>
                 <p class="text-gray-400 text-lg lg:text-xl mb-12 max-w-lg leading-relaxed font-medium">
-                    We go beyond turning knobs. Our ecosystem is designed to equip you with the exact tools, knowledge, and confidence needed to thrive in the modern music industry.
+                    Kratex is the only artist who has merged his cultural roots to establish a massive global EDM presence. 
+                    We don't just teach turning knobs; we teach the exact blueprint used to dominate international stages.
                 </p>
 
-                <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-6">
+                <ul class="flex flex-col gap-6">
                     <?php foreach($points as $index => $point): ?>
-                        <li data-aos="fade-up" data-aos-delay="<?= $index * 100 ?>" class="flex items-center gap-4 group">
-                            <i class="fa-solid fa-circle-check text-primary text-xl flex-shrink-0 group-hover:scale-125 transition-transform"></i>
-                            <span class="text-white font-bold tracking-wide uppercase text-sm"><?= $point ?></span>
+                        <li data-aos="fade-up" data-aos-delay="<?= $index * 100 ?>" class="flex items-start gap-4 group">
+                            <i class="fa-solid fa-circle-check text-primary text-xl flex-shrink-0 group-hover:scale-125 transition-transform mt-0.5"></i>
+                            <span class="text-white font-bold tracking-wide uppercase text-sm leading-relaxed"><?= $point ?></span>
                         </li>
                     <?php endforeach; ?>
                 </ul>

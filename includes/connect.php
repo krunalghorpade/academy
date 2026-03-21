@@ -24,7 +24,7 @@ $mapIframe = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15126.286209
                         </div>
                         <div>
                             <h4 class="text-white font-black uppercase tracking-widest text-sm mb-2">Location</h4>
-                            <p class="text-gray-400 font-medium">Pune, Maharashtra, India<br/><span class="text-sm opacity-70">(Full address provided upon inquiry)</span></p>
+                            <p class="text-gray-400 font-medium leading-relaxed">Dnyaneshwar Paduka Chauk, Gokul Building<br/>B Wing, Fergusson College Rd, Shivajinagar<br/>Pune, Maharashtra 411005</p>
                         </div>
                     </div>
                     
@@ -34,12 +34,12 @@ $mapIframe = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15126.286209
                         </div>
                         <div>
                             <h4 class="text-white font-black uppercase tracking-widest text-sm mb-2">Call / WhatsApp</h4>
-                            <p class="text-gray-400 font-medium">+91 (Placeholder)</p>
+                            <p class="text-gray-400 font-medium">+91 88550 03728</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="w-full aspect-video bg-[#111] border border-white/10 rounded-xl overflow-hidden relative shadow-2xl">
+                <div class="w-full aspect-video bg-[#111] border border-white/10 rounded-xl overflow-hidden relative shadow-2xl mb-5">
                     <iframe 
                         src="<?= $mapIframe ?>" 
                         class="w-full h-full border-0 grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all duration-500" 
@@ -48,6 +48,10 @@ $mapIframe = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15126.286209
                         referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
                 </div>
+                
+                <a href="https://share.google/A4NrHMK4gXI0mrssI" target="_blank" class="inline-flex items-center gap-2 text-sm font-bold text-primary hover:text-white uppercase tracking-widest transition-colors group">
+                    View on Google Maps <i class="fa-solid fa-arrow-up-right-from-square transition-transform group-hover:-translate-y-1 group-hover:translate-x-1"></i>
+                </a>
             </div>
 
             <!-- Inquiry Form -->
@@ -58,8 +62,8 @@ $mapIframe = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15126.286209
                     <h3 class="text-4xl md:text-5xl font-black text-white uppercase tracking-tighter mb-4">Apply Now</h3>
                     <p class="text-gray-400 mb-10 font-medium text-lg">Take the first step towards the stage.</p>
                     
-                    <!-- Form redirects to process script -->
-                    <form action="process_inquiry.php" method="POST" class="flex flex-col gap-6" id="inquiry-form">
+                    <!-- Form redirects to process script and opens new tab -->
+                    <form action="process_inquiry.php" method="POST" target="_blank" class="flex flex-col gap-6" id="inquiry-form">
                         <div class="flex flex-col gap-3">
                             <label for="name" class="text-xs font-bold text-gray-500 uppercase tracking-widest">Full Name</label>
                             <input 
@@ -81,6 +85,18 @@ $mapIframe = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15126.286209
                                 required
                                 class="bg-[#050505] border border-white/10 rounded-sm px-5 py-4 text-white focus:outline-none focus:border-primary transition-colors font-medium"
                                 placeholder="WhatsApp / Mobile"
+                            />
+                        </div>
+                        
+                        <div class="flex flex-col gap-3">
+                            <label for="city" class="text-xs font-bold text-gray-500 uppercase tracking-widest">City</label>
+                            <input 
+                                type="text" 
+                                id="city"
+                                name="city"
+                                required
+                                class="bg-[#050505] border border-white/10 rounded-sm px-5 py-4 text-white focus:outline-none focus:border-primary transition-colors font-medium"
+                                placeholder="Your City"
                             />
                         </div>
                         
@@ -114,7 +130,14 @@ $mapIframe = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15126.286209
 
 <script>
     document.getElementById('inquiry-form').addEventListener('submit', function() {
-        document.getElementById('submit-btn').innerHTML = 'Processing...';
-        document.getElementById('submit-btn').classList.add('opacity-70', 'pointer-events-none');
+        const btn = document.getElementById('submit-btn');
+        const originalText = btn.innerHTML;
+        btn.innerHTML = 'Redirecting to Basic Form...';
+        
+        // Reset button after the redirect occurs in a new tab
+        setTimeout(() => {
+            btn.innerHTML = originalText;
+            document.getElementById('inquiry-form').reset();
+        }, 3000);
     });
 </script>
