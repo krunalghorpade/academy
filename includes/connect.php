@@ -62,8 +62,8 @@ $mapIframe = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15126.286209
                     <h3 class="text-4xl md:text-5xl font-black text-white uppercase tracking-tighter mb-4">Apply Now</h3>
                     <p class="text-gray-400 mb-10 font-medium text-lg">Take the first step towards the stage.</p>
                     
-                    <!-- Form redirects to process script and opens new tab -->
-                    <form action="process_inquiry.php" method="POST" target="_blank" class="flex flex-col gap-6" id="inquiry-form">
+                    <!-- Form redirects to process script on same page -->
+                    <form action="process_inquiry.php" method="POST" class="flex flex-col gap-6" id="inquiry-form">
                         <div class="flex flex-col gap-3">
                             <label for="name" class="text-xs font-bold text-gray-500 uppercase tracking-widest">Full Name</label>
                             <input 
@@ -131,13 +131,7 @@ $mapIframe = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15126.286209
 <script>
     document.getElementById('inquiry-form').addEventListener('submit', function() {
         const btn = document.getElementById('submit-btn');
-        const originalText = btn.innerHTML;
-        btn.innerHTML = 'Redirecting to Basic Form...';
-        
-        // Reset button after the redirect occurs in a new tab
-        setTimeout(() => {
-            btn.innerHTML = originalText;
-            document.getElementById('inquiry-form').reset();
-        }, 3000);
+        btn.innerHTML = 'Redirecting to Step 2...';
+        btn.classList.add('opacity-70', 'cursor-not-allowed');
     });
 </script>
