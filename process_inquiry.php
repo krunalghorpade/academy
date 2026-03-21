@@ -8,9 +8,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $interest = htmlspecialchars(trim($_POST['interest'] ?? ''));
 
     // Send email to Kratex
-    $to = 'contact@kratex.in';
+    $to = 'kratexmusic@gmail.com';
     $subject = "New Academy Inquiry: $name";
-    
+
     // Build a highly spam-filter friendly HTML email utilizing inline styles and a standard table.
     $message = '
     <html>
@@ -46,7 +46,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // DMARC & SPF fix: The sender domain MUST match the hosting server's domain to prevent strict spam rejection.
     $domain = isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : 'kratex.in';
-    if(strpos($domain, 'www.') === 0) { $domain = substr($domain, 4); }
+    if (strpos($domain, 'www.') === 0) {
+        $domain = substr($domain, 4);
+    }
     $fromEmail = "noreply@" . $domain;
 
     // Advanced Email Headers
@@ -59,7 +61,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // The -f flag explicitly forces the Return-Path to match the sending domain. This is critical for getting past Gmail spam filters on shared hosting.
     @mail($to, $subject, $message, $headers, "-f" . $fromEmail);
-    
+
     // Redirect to the provided Google form
     header("Location: https://tr.ee/academykratexinq");
     exit;
