@@ -1,7 +1,7 @@
 <?php
 $points = [
     "Industry-Driven Curriculum",
-    "Curated by Kratex",
+    "Curated by Kratex<sup class=\"text-[0.55em]\">&trade;</sup>",
     "Hands-on Studio Experience",
     "Performance & Stage Training",
     "Artist Branding & Marketing",
@@ -29,7 +29,7 @@ $points = [
             <div data-aos="fade-left">
                 <span class="text-primary font-bold tracking-[0.2em] uppercase text-sm mb-4 block">The Advantage</span>
                 <h2 class="text-5xl md:text-7xl font-black text-white uppercase tracking-tighter mb-8 leading-[0.9]">
-                    Why Kratex <br class="hidden md:block"/> Academy?
+                    Why Kratex<sup class="text-[0.55em]">&trade;</sup> <br class="hidden md:block"/> Academy?
                 </h2>
                 <p class="text-gray-400 text-lg lg:text-xl mb-12 max-w-lg leading-relaxed font-medium">
                     We go beyond turning knobs. Our ecosystem is designed to equip you with the exact tools, knowledge, and confidence needed to thrive in the modern music industry.

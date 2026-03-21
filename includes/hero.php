@@ -7,7 +7,7 @@
     <div class="relative z-10 max-w-7xl mx-auto px-6 md:px-12 flex flex-col items-center text-center mt-16">
         <div data-aos="fade-up" class="flex flex-col items-center">
             <span class="text-primary font-bold tracking-[0.2em] uppercase text-xs md:text-sm mb-6 block">
-                Welcome to Kratex Music Academy
+                Welcome to Kratex<sup class="text-[0.55em]">&trade;</sup> Music Academy
             </span>
             <h1 class="text-6xl md:text-8xl lg:text-[7rem] font-black text-white uppercase tracking-tighter leading-[0.9] mb-8">
                 Build For<br />

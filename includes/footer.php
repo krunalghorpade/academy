@@ -1,15 +1,16 @@
 <footer class="bg-[#020202] border-t border-white/10 pt-16 pb-28 md:pb-12">
     <div class="max-w-7xl mx-auto px-6 md:px-12 flex flex-col items-center text-center">
-        <h2 class="text-4xl font-black text-white tracking-tighter uppercase mb-6">
-            <span class="text-primary">Kratex</span> Academy
-        </h2>
+        <div class="flex items-center justify-center gap-3 mb-6">
+            <img src="images/kratex-logo.svg" alt="Kratex&trade;" class="h-8 md:h-10">
+            <span class="text-3xl md:text-4xl font-black text-white tracking-tighter uppercase pt-1">Academy</span>
+        </div>
         <p class="text-gray-400 max-w-md mx-auto mb-10 font-medium">
-            Transforming listeners into performing artists. Industry-driven curriculum curated by Kratex.
+            Transforming listeners into performing artists. Industry-driven curriculum curated by Kratex<sup class="text-[0.55em]">&trade;</sup>.
         </p>
         
         <div class="flex flex-wrap justify-center items-center gap-6 md:gap-12 mb-12">
             <a href="#programs" class="text-sm font-bold text-gray-400 hover:text-white uppercase tracking-widest transition-colors">Programs</a>
-            <a href="#why-kratex" class="text-sm font-bold text-gray-400 hover:text-white uppercase tracking-widest transition-colors">Why Kratex</a>
+            <a href="#why-kratex" class="text-sm font-bold text-gray-400 hover:text-white uppercase tracking-widest transition-colors">Why Kratex<sup class="text-[0.55em]">&trade;</sup></a>
             <a href="#visit" class="text-sm font-bold text-gray-400 hover:text-white uppercase tracking-widest transition-colors">Visit Us</a>
             <a href="#apply" class="text-sm font-bold text-primary hover:text-white uppercase tracking-widest transition-colors">Apply Now</a>
         </div>
@@ -17,7 +18,7 @@
         <div class="w-full h-[1px] bg-white/10 mb-8"></div>
         
         <p class="text-xs text-gray-600 font-semibold tracking-wider uppercase">
-            &copy; <?= date("Y") ?> Kratex Music Academy. All rights reserved.
+            &copy; <?= date("Y") ?> Kratex<sup class="text-[0.55em]">&trade;</sup> Music Academy. All rights reserved.
         </p>
     </div>
 </footer>

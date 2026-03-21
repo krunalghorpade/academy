@@ -6,14 +6,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kratex Music Academy | Build For The Stage</title>
-    <meta name="description" content="From listener to performer. Join Kratex Music Academy in Pune for a premium DJing and Music Production curriculum.">
+    <title>Kratex&trade; Music Academy | Build For The Stage</title>
+    <meta name="description" content="From listener to performer. Join Kratex&trade; Music Academy in Pune for a premium DJing and Music Production curriculum.">
     
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
-    
+    <!-- System Fonts -->
+    <!-- Helvetica Neue is natively available on most devices -->
     <!-- Tailwind CSS (CDN for simple deployment) -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -26,7 +23,7 @@
                         background: '#000000',
                     },
                     fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
+                        sans: ['"Helvetica Neue"', 'Helvetica', 'Arial', 'sans-serif'],
                     }
                 }
             }

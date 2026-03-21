@@ -16,11 +16,11 @@
                 
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full max-w-2xl mb-12">
                     <div class="bg-black/50 border border-white/10 p-8 rounded-xl flex flex-col items-center justify-center">
-                        <span class="text-sm font-bold text-gray-500 uppercase tracking-widest mb-3">Before Kratex</span>
+                        <span class="text-sm font-bold text-gray-500 uppercase tracking-widest mb-3">Before Kratex<sup class="text-[0.55em]">&trade;</sup></span>
                         <span class="text-2xl font-black text-gray-300 tracking-widest uppercase">Consumer</span>
                     </div>
                     <div class="bg-primary/5 border border-primary/40 p-8 rounded-xl flex flex-col items-center justify-center shadow-[0_0_20px_rgba(230,0,0,0.15)]">
-                        <span class="text-sm font-bold text-primary/80 uppercase tracking-widest mb-3">After Kratex</span>
+                        <span class="text-sm font-bold text-primary/80 uppercase tracking-widest mb-3">After Kratex<sup class="text-[0.55em]">&trade;</sup></span>
                         <span class="text-2xl font-black text-white tracking-widest uppercase shadow-primary">Creator</span>
                     </div>
                 </div>
