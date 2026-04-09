@@ -1,5 +1,5 @@
 <header id="main-header"
-    class="fixed top-0 w-full z-50 transition-all duration-300 border-b bg-transparent border-transparent py-6">
+    class="fixed top-0 left-0 w-full z-50 transition-all duration-300 border-b bg-transparent border-transparent py-6">
     <div class="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center">
         <a href="/" class="flex items-center gap-3">
             <img src="assets/images/logo/white.png" alt="Kratex&trade;" class="h-6 md:h-5">

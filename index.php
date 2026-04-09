@@ -2,7 +2,7 @@
 // Main landing page for Kratex Music Academy
 ?>
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en" class="scroll-smooth overflow-x-hidden w-full max-w-[100vw]">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -54,7 +54,7 @@
         .backdrop-blur-xl { backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px); }
     </style>
 </head>
-<body class="font-sans antialiased bg-black text-white min-h-screen flex flex-col">
+<body class="font-sans antialiased bg-black text-white min-h-screen flex flex-col overflow-x-hidden w-full max-w-[100vw]">
 
     <?php include 'includes/header.php'; ?>
 
