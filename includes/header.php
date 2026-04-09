@@ -19,7 +19,7 @@
                 class="text-sm font-bold text-white hover:text-primary transition-colors uppercase tracking-wider">Visit
                 Us</a>
 
-            <a href="#apply"
+            <a href="https://tr.ee/uY4VZg" target="_blank" rel="noopener noreferrer"
                 class="bg-primary hover:bg-white hover:text-black text-white px-7 py-2.5 rounded-sm font-black text-sm uppercase tracking-widest transition-transform hover:-translate-y-1">
                 Apply Now
             </a>
@@ -44,7 +44,7 @@
         <a href="#visit"
             class="mobile-link text-2xl font-bold text-gray-300 hover:text-white uppercase tracking-widest hidden">Visit
             Us</a>
-        <a href="#apply"
+        <a href="https://tr.ee/uY4VZg" target="_blank" rel="noopener noreferrer"
             class="mobile-link bg-primary hover:bg-white hover:text-black text-white px-10 py-4 rounded-sm font-black uppercase tracking-widest mt-4 transition-colors hidden">Apply
             Now</a>
     </div>

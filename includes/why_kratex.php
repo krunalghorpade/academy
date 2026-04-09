@@ -10,9 +10,9 @@ $points = [
 <section id="why-kratex" class="py-24 md:py-32 bg-[#050505] relative overflow-hidden">
     <div class="max-w-7xl mx-auto px-6 md:px-12 flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
         <div class="flex-1 w-full order-2 lg:order-1 relative">
-            <div data-aos="zoom-in" class="w-full aspect-square max-w-[500px] mx-auto lg:max-w-none bg-[#111] rounded-xl overflow-hidden relative border border-white/10 shadow-2xl">
+            <div data-aos="zoom-in" class="w-full aspect-[1/1.4] max-w-[500px] mx-auto lg:max-w-none bg-[#111] rounded-xl overflow-hidden relative border border-white/10 shadow-2xl">
                 <!-- Image Placeholder -->
-                <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('placeholder-studio-2.jpg');">
+                <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('assets/images/dpmain.jpg');">
                     <div class="absolute inset-0 bg-gradient-to-tr from-black/80 via-black/20 to-transparent"></div>
                 </div>
                 
@@ -43,6 +43,13 @@ $points = [
                         </li>
                     <?php endforeach; ?>
                 </ul>
+                
+                <div class="mt-10" data-aos="fade-up" data-aos-delay="500">
+                    <a href="https://kratex.in" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 text-white px-6 py-3 rounded-sm font-bold uppercase tracking-widest text-xs transition-colors group">
+                        Know more about Kratex
+                        <i class="fa-solid fa-arrow-up-right-from-square text-[10px] group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-transform"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </div>

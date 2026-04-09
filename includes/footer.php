@@ -19,7 +19,7 @@
             <a href="#visit"
                 class="text-sm font-bold text-gray-400 hover:text-white uppercase tracking-widest transition-colors">Visit
                 Us</a>
-            <a href="#apply"
+            <a href="https://tr.ee/uY4VZg" target="_blank" rel="noopener noreferrer"
                 class="text-sm font-bold text-primary hover:text-white uppercase tracking-widest transition-colors">Apply
                 Now</a>
         </div>
@@ -35,7 +35,7 @@
 <!-- Mobile Bottom Bar -->
 <div id="mobile-bottom-bar"
     class="md:hidden fixed bottom-0 left-0 w-full z-40 bg-black/95 backdrop-blur-md border-t border-white/10 px-4 py-3 pb-6 flex gap-3 transition-transform duration-300">
-    <a href="#apply"
+    <a href="https://tr.ee/uY4VZg" target="_blank" rel="noopener noreferrer"
         class="flex-1 bg-white hover:bg-gray-200 text-black font-black uppercase tracking-widest text-sm flex justify-center items-center py-3.5 rounded-sm transition-colors">
         Apply Now
     </a>

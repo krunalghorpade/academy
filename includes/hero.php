@@ -1,7 +1,10 @@
 <section class="relative h-screen min-h-[600px] w-full flex items-center justify-center overflow-hidden">
-    <!-- Background with Dark Overlay -->
-    <div class="absolute inset-0 bg-cover bg-center bg-no-repeat" style="background-image: url('placeholder-studio.jpg');">
-        <div class="absolute inset-0 bg-black/70 bg-gradient-to-t from-black via-black/50 to-black/80"></div>
+    <!-- Background Video with Dark Overlay -->
+    <div class="absolute inset-0">
+        <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover">
+            <source src="assets/video/video.mp4" type="video/mp4">
+        </video>
+        <div class="absolute inset-0 bg-black/60"></div>
     </div>
 
     <div class="relative z-10 max-w-7xl mx-auto px-6 md:px-12 flex flex-col items-center text-center mt-16">
@@ -20,7 +23,7 @@
             </p>
 
             <div class="flex flex-col sm:flex-row items-center justify-center gap-5 w-full sm:w-auto">
-                <a href="#apply" class="w-full sm:w-auto bg-primary hover:bg-white hover:text-black text-white px-10 py-4 rounded-sm font-black uppercase tracking-widest transition-transform hover:-translate-y-1 shadow-[0_0_20px_rgba(230,0,0,0.3)]">
+                <a href="https://tr.ee/uY4VZg" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto bg-primary hover:bg-white hover:text-black text-white px-10 py-4 rounded-sm font-black uppercase tracking-widest transition-transform hover:-translate-y-1 shadow-[0_0_20px_rgba(230,0,0,0.3)]">
                     Apply Now
                 </a>
                 <a href="#visit" class="w-full sm:w-auto bg-black/50 backdrop-blur-sm border border-white/30 hover:bg-white hover:text-black text-white px-10 py-4 rounded-sm font-black uppercase tracking-widest transition-colors hover:bg-white/10">

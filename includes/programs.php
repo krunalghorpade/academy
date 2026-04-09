@@ -62,7 +62,7 @@ $programs = [
                         </ul>
                     </div>
 
-                    <a href="#apply?interest=<?= urlencode($program['title']) ?>" 
+                    <a href="https://tr.ee/uY4VZg" target="_blank" rel="noopener noreferrer"
                        class="w-full flex items-center justify-center gap-3 py-4 rounded-sm font-black uppercase tracking-widest transition-all <?= $program['popular'] ? 'bg-primary hover:bg-white hover:text-black text-white' : 'bg-white/5 hover:bg-white hover:text-black text-white border border-white/10' ?>">
                         Enroll Now
                         <i class="fa-solid fa-arrow-right"></i>

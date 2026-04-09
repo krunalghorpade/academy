@@ -25,7 +25,7 @@
                     </div>
                 </div>
                 
-                <a href="#apply" class="bg-primary hover:bg-white hover:text-black text-white px-12 py-5 rounded-sm font-black uppercase tracking-widest transition-transform hover:-translate-y-1 shadow-[0_0_30px_rgba(230,0,0,0.3)] text-lg inline-block">
+                <a href="https://tr.ee/uY4VZg" target="_blank" rel="noopener noreferrer" class="bg-primary hover:bg-white hover:text-black text-white px-12 py-5 rounded-sm font-black uppercase tracking-widest transition-transform hover:-translate-y-1 shadow-[0_0_30px_rgba(230,0,0,0.3)] text-lg inline-block">
                     Secure Your Spot
                 </a>
             </div>
