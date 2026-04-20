@@ -9,6 +9,13 @@ $testimonials = [
         "insta" => "https://www.instagram.com/dj_david_____?igsh=bG1jeDgwOGhiNWZl"
     ],
     [
+        "text" => "I’m really grateful for my time at Kratex Music Academy. The mentors are not only talented but also very approachable. Whenever I had doubts, they were always there to help, which made my learning experience so much better.",
+        "name" => "Kadambari Shinde",
+        "initial" => "K",
+        "course" => "DJing Pro",
+        "insta" => "https://www.instagram.com/_kadambari__shinde_?igsh=MXg5ZnRhZWgwYTJrYw=="
+    ],
+    [
         "text" => "I’m DJ DOCTEN, and joining Kratex Music Academy truly helped me grow as a DJ. The mentors are passionate and knowledgeable, teaching everything from mixing techniques and music theory to crowd reading in a simple way. Their guidance improved my skills, built my confidence, and the live performance experience they provide helped me understand what it’s really like to play in front of a crowd. Proud to be part of the Kratex family and would recommend it to anyone serious about starting their DJ journey.",
         "name" => "Kundan Chaudhary",
         "image" => "images/testimonials/doctor_mixmusic.jpg",
@@ -23,6 +30,13 @@ $testimonials = [
         "initial" => "B",
         "course" => "DJing Pro",
         "insta" => "https://www.instagram.com/djbhusnx?igsh=Znltb3dkdjYwZzk2"
+    ],
+    [
+        "text" => "I loved that at Kratex Music Academy, learning never felt stressful. The environment is friendly and supportive, and the mentors make sure you understand every concept properly. The best part was getting real live experience, which made me feel prepared to perform.",
+        "name" => "Amruta Jabre",
+        "initial" => "A",
+        "course" => "DJing Pro",
+        "insta" => "https://www.instagram.com/djamruta_official?igsh=cnl6c3R3cm41MDd0"
     ],
     [
         "text" => "Learning at Kratex Music Academy gave me much more than just skills. The academy gave me real stage opportunities, helped me build confidence, and guided me at every step. Today, because of that experience and mentorship, I’m working full-time as both a DJ and a music producer.",
@@ -47,6 +61,13 @@ $testimonials = [
         "initial" => "U",
         "course" => "DJing Pro",
         "insta" => "https://www.instagram.com/utkarsh.okk?igsh=MTgyaDBzZGdsb3h0Zg=="
+    ],
+    [
+        "text" => "Before joining Kratex Music Academy, I only dreamed about performing. Today, because of the guidance and live opportunities they gave me, I actually feel ready to do it.",
+        "name" => "Ankita Mahangre",
+        "initial" => "A",
+        "course" => "DJing Pro",
+        "insta" => "https://www.instagram.com/a.n.k.i.t.a.37?igsh=MTdnZmxzcm1ydWQ5cw=="
     ],
     [
         "text" => "I joined Kratex Music Academy with a dream, and the academy helped me turn it into reality. The mentors, live shows, and personal guidance made all the difference.",
